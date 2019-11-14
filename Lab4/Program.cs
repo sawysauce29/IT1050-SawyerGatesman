@@ -40,6 +40,7 @@ namespace Lab4
                 }
             }
             {
+                //6).
                 Console.Write("Please enter a temperature: ");
                 int temp = Convert.ToInt32(Console.ReadLine());
                 if (temp >= 90) { Console.WriteLine("fish"); }
@@ -53,6 +54,7 @@ namespace Lab4
                 else { Console.WriteLine("Bug"); }
             }
             {
+                //7).
                 int i = 10 ;
                 while (i < 21)
                 {
@@ -60,6 +62,7 @@ namespace Lab4
                 }
 
             }
+            //8).
             for (int i = 0; i < 101; i++)
             {
                 Console.WriteLine(i);
