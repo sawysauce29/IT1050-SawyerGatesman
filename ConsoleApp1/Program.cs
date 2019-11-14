@@ -22,7 +22,7 @@ namespace ConsoleApp1
             while (m >= 20)
             {
                 Console.Write("While Output: ");
-                Console.WriteLine(m-5);
+                Console.WriteLine(m); m-- 5;
                
             }
            
